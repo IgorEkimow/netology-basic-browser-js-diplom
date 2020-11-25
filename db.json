@@ -6,6 +6,29 @@
       "password": "demo",
       "id": "1",
       "isAuthorized": false
+    },
+    {
+      "id": "19edav1iskhxu7x9t",
+      "isAuthorized": false
+    },
+    {
+      "id": "19edav1iykhxu8cd8",
+      "isAuthorized": false
+    },
+    {
+      "id": "19edav1j4khxu8d1y",
+      "isAuthorized": false
+    },
+    {
+      "id": "19edav1j4khxu8d3j",
+      "isAuthorized": true
+    },
+    {
+      "name": "demo1",
+      "email": "demo1@demo.ru",
+      "password": "demo1",
+      "id": "19edav20pkhxwn7ty",
+      "isAuthorized": true
     }
   ],
   "accounts": [
