@@ -6,7 +6,6 @@
 const createRequest = (options = {}) => {
     let xhr = new XMLHttpRequest();
     let formData = new FormData();
-
     xhr.responseType = options.responseType;
 
     if ('headers' in options) {

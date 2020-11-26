@@ -1,3 +1,4 @@
+"use strict";
 /**
  * Класс Modal отвечает за
  * управление всплывающими окнами.
@@ -11,7 +12,7 @@ class Modal {
    * Если переданный элемент не существует,
    * необходимо выкинуть ошибку.
    * */
-  constructor( element ) {
+  constructor(element) {
     if (!element) {
       throw new Error("Ошибка! Элемент не существует!");
     }
@@ -37,7 +38,7 @@ class Modal {
    * Срабатывает после нажатия на элементы, закрывающие окно.
    * Закрывает текущее окно (Modal.close())
    * */
-  onClose( e ) {
+  onClose(e) {
     e.preventDefault();
     this.close();
   }
