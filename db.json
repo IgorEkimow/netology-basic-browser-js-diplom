@@ -21,13 +21,56 @@
     },
     {
       "id": "19edav1j4khxu8d3j",
-      "isAuthorized": true
+      "isAuthorized": false
     },
     {
       "name": "demo1",
       "email": "demo1@demo.ru",
       "password": "demo1",
       "id": "19edav20pkhxwn7ty",
+      "isAuthorized": false
+    },
+    {
+      "id": "1awa3kikhzaxh4f",
+      "isAuthorized": false
+    },
+    {
+      "id": "1awa3kikhzaxh4l",
+      "isAuthorized": false
+    },
+    {
+      "id": "1awa3kqkhzay07b",
+      "isAuthorized": false
+    },
+    {
+      "id": "1awa3kqkhzay07g",
+      "isAuthorized": false
+    },
+    {
+      "id": "1awa3l1khzay4nx",
+      "isAuthorized": false
+    },
+    {
+      "id": "1awa3l1khzay4o5",
+      "isAuthorized": false
+    },
+    {
+      "id": "1awa3l8khzaygqw",
+      "isAuthorized": false
+    },
+    {
+      "id": "1awa3qrkhzbrhct",
+      "isAuthorized": true
+    },
+    {
+      "id": "1awa3qrkhzbrhcx",
+      "isAuthorized": true
+    },
+    {
+      "name": "test",
+      "email": "test@test",
+      "password": "test",
+      "id": "1awa3tvkhzbwyjj",
       "isAuthorized": true
     }
   ],
@@ -46,6 +89,11 @@
       "name": "Бизнес",
       "user_id": "1",
       "id": "3"
+    },
+    {
+      "name": "test",
+      "user_id": "1awa3l8khzaygqw",
+      "id": "1awa3u2khzbx72e"
     }
   ],
   "transactions": [
