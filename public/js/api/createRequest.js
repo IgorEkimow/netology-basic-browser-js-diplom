@@ -7,13 +7,11 @@ const createRequest = (options = {}) => {
     let xhr = new XMLHttpRequest();
     let formData = new FormData();
     xhr.responseType = options.responseType;
-
     if ('headers' in options) {
         for (let header in options.headers) {
             xhr.setRequestHeader(header, options.headers[header]);
         }
     }
-
     if (options.method === "GET") {
         options.url += "?";
         for (let param in options.data) {
